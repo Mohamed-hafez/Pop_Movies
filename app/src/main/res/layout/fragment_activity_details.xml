@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout_Details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="4"
+    android:orientation="vertical"
+    tools:context=".ActivityDetailsFragment"
+    tools:showIn="@layout/activity_detailes">
+
+    <LinearLayout
+        android:id="@+id/Movie_Title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/Movie_Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#009688"
+            android:gravity="clip_horizontal"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="sgddssdd"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:paddingTop="8dp">
+
+                    <ImageView
+                        android:id="@+id/_Details_Movie_Image"
+                        android:layout_width="185dp"
+                        android:layout_height="200dp"
+                        android:layout_marginRight="30dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:id="@+id/Movie_year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2015"
+                            android:textSize="30dp" />
+
+                        <TextView
+                            android:id="@+id/Movie_Time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/Movie_Rate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="8.1/10"
+                            android:textColor="#000"
+                            android:textSize="15dp" />
+
+                        <Button
+                            android:id="@+id/Favorite_Button"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="6dp"
+                            android:background="#B2DFDB"
+                            android:padding="5dp"
+                            android:text="MARK AS FAVORITE"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#000"></View>
+
+            <TextView
+                android:id="@+id/description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="describtion text"
+                android:textSize="15dp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#000"></View>
+
+
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
